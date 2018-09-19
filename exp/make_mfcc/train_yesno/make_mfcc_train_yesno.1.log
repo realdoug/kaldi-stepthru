@@ -1,0 +1,43 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train_yesno/wav_train_yesno.1.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/doug/git/kaldi-trunk/egs/yesno/s5/mfcc/raw_mfcc_train_yesno.1.ark,/home/doug/git/kaldi-trunk/egs/yesno/s5/mfcc/raw_mfcc_train_yesno.1.scp 
+# Started at Wed Sep 19 19:54:56 EDT 2018
+#
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train_yesno/wav_train_yesno.1.scp ark:- 
+copy-feats --compress=true ark:- ark,scp:/home/doug/git/kaldi-trunk/egs/yesno/s5/mfcc/raw_mfcc_train_yesno.1.ark,/home/doug/git/kaldi-trunk/egs/yesno/s5/mfcc/raw_mfcc_train_yesno.1.scp 
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_0_0_1_1_1_1
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_0_1_0_0_0_1
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_0_1_0_1_1_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_0_0_0_1_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_0_0_1_1_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_0_0_1_1_1
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_0_1_0_0_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_0_1_0_0_1
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_0_1_0_1_1
+LOG (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:172) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_1_0_0_0_1
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_1_0_1_0_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_1_0_1_1_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_1_0_1_1_1
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_1_1_0_0_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_1_1_0_0_1
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_1_1_1_0_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_0_1_1_1_1_1_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_0_0_0_1_0_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_0_0_0_1_1_0
+LOG (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:172) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_0_0_1_0_1_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_0_0_1_0_1_1
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_0_1_0_0_0_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_0_1_1_0_1_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_0_1_1_1_0_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_1_0_0_1_1_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_1_0_0_1_1_1
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_1_1_0_0_0_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_1_1_0_0_1_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_1_1_0_1_0_1
+LOG (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:172) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_1_1_1_0_1_0
+VLOG[2] (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:173) Processed features for key 0_1_1_1_1_1_1_1
+LOG (compute-mfcc-feats[5.5.26~1-c8e4]:main():compute-mfcc-feats.cc:176)  Done 31 out of 31 utterances.
+LOG (copy-feats[5.5.26~1-c8e4]:main():copy-feats.cc:143) Copied 31 feature matrices.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Sep 19 19:54:56 EDT 2018, elapsed time 0 seconds
