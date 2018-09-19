@@ -2,7 +2,7 @@
 cat
 conf
 input
-local
+local/*
 path.sh
 run.sh
 steps
