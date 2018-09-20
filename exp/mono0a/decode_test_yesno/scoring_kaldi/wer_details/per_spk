@@ -1,0 +1,5 @@
+SPEAKER         id       #SENT      #WORD       Corr        Sub        Ins        Del        Err      S.Err
+global          raw         29        232        232          0          0          0          0          0
+global          sys         29        232     100.00       0.00       0.00       0.00       0.00       0.00
+SUM             raw         29        232        232          0          0          0          0          0
+SUM             sys         29        232     100.00       0.00       0.00       0.00       0.00       0.00
